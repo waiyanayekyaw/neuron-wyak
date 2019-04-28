@@ -1,0 +1,146 @@
+// index
+.h2{
+    display: none;
+}
+.navigation a{
+    color: black;
+    text-align: right;
+}
+.head{
+    background: url('images/home-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40vh 0;
+}
+.help img{
+    width: 40px;
+    height: 40px;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+}
+
+.par{
+    text-align: center;
+    color: yellow;
+}
+
+.btn1{
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+}
+.btn1:hover{
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+$primary-color: olive;
+
+.help:hover{
+    color: $primary-color;
+}
+.pretium:hover{
+    color: $primary-color;
+}
+.interdum:hover{
+    color: $primary-color;
+}
+.ingredient:hover{
+    color: $primary-color;
+}
+.vestibulum:hover{
+    color: $primary-color;
+}
+
+.btn2{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: white;
+    color: black
+}
+.btn2:hover{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: $primary-color;
+    color: white;
+}
+
+
+.about{
+    color: white;
+    text-align: center;
+    background: url('images/about-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.gallery{
+    color: white;
+    text-align: center;
+    background: url('images/gallery-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.container col-md-6{
+    padding: 0 0;
+}
+
+.contact{
+    color: white;
+    text-align: center;
+    background: url('images/contact-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.beautiful{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.hello{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.nav-contact {
+    margin-top: 8%
+}
+
+.nav-contact a {
+    color: #5e5e5e;
+}
+
+.nav-contact a:hover {
+    color: #bfba55;
+    text-decoration: none;
+}
+
+.name {
+    color: #5e5e5e;
+}
+
+.navigation {
+    margin-bottom: 10px;
+}
+
+// footer
+.footer{
+    padding: 90px 0;
+    background-color: black;
+    color: white;
+}
