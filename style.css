@@ -1,3 +1,7 @@
+.body{
+  background-color: #beb9b9
+}
+
 .h2 {
   display: none; }
 
@@ -58,7 +62,8 @@
   padding: 15px 20px;
   border-radius: 50px;
   background-color: white;
-  color: black; }
+  color: black;
+   }
 
 .btn2:hover {
   padding: 15px 20px;
@@ -75,17 +80,21 @@
   color: white;
   text-align: center;
   background: url("images/about-bg.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding: 200px 0; }
+  background-size: cover;
+  padding: 40vh 0; }
 
 .gallery {
   color: white;
   text-align: center;
   background: url("images/gallery-bg.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding: 200px 0; }
+  background-size: cover;
+  padding: 40vh 0; }
 
 .container col-md-6 {
   padding: 0 0; }
@@ -94,9 +103,11 @@
   color: white;
   text-align: center;
   background: url("images/contact-bg.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding: 200px 0; }
+  background-size: cover;
+  padding: 40vh 0; }
 
 .beautiful {
   margin-left: 130px;
