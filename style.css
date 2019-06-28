@@ -72,7 +72,7 @@
   color: white; }
 
 .footer {
-  padding: 90px 0;
+  padding: 10px 0;
   background-color: black;
   color: white; }
 
@@ -108,14 +108,6 @@
   background-position: center;
   background-size: cover;
   padding: 40vh 0; }
-
-.beautiful {
-  margin-left: 130px;
-  margin-right: 130px; }
-
-.hello {
-  margin-left: 120px;
-  margin-right: 120px; }
 
 .nav-contact {
   margin-top: 8%; }
